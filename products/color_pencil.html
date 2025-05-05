@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Joy's Arts & Crafts Store</title>
+    <link href="../style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"/>
+</head>
+    <body class="background_color">
+        <div class="container">
+            <div class="row">
+                <div class="container search_bar">
+                    <div class="container text-center search_bar mt-3 row">
+                        <div class="col-md-1">
+                            <img src="../img/search/sign_in.png" height="60" width="60">
+                        </div>
+                        <div class="col-md-10 mt-3">
+                            <input type="search" id="search-bar" name="q" placeholder="Search...">
+                            <button><img src="../img/search/search_icon.png" height="25" width="25"></button>
+                        </div>
+                        <div class="col-md-1">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="business" value="joystore@buisness.com">
+                            <input type="hidden" name="cmd" value="_cart">
+                            <input type="hidden" name="display" value="1">
+                            <input type="image" name="submit"
+                                src="../img/search/shopping_cart.png"
+                            alt="Shopping Cart" height="60" width="60">
+                            <img alt="" width="1" height="1"
+                                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+                        </form>
+                        </div> 
+                    </div> 
+                </div>
+                 
+                    <nav class="navbar navbar-expand-lg navbar_color text-center">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img src="../img/logo.png" height="90" width="170"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#topNavBar" aria-controls="navbarCollapse"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="topNavBar">
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item mx-2" >
+                                        <a href="../index.html" class="text-dark text-decoration-none">Home</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a href="../product.html" class="text-dark text-decoration-none">Products</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a href="../about.html" class="text-dark text-decoration-none">About</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a href="../contact.html" class="text-dark text-decoration-none">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                <div class="row my-5">
+                    <div class="col-md-6 text-center">
+                        <div class="h3 mb-4">Joy's Color Pencils</div>
+                        <img src="../img/draw/colorpencils.webp" height="300" width="300">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="h3 mb-4">Specifications:</div>
+                        <p>A high-quality, pre-sharpened, long lasting 10 pack vibrant color pencil set, 
+                            perfect for coloring and shading. Suitable for coloring books, sketches,
+                            papercrafts, and much more. 
+                        </p>
+                        <p>Height: 0.8 cm.</p>
+                        <p>Width: 9 cm.</p>
+                        <p>Length: 20 cm. </p>
+                        <p>Color: Multicolor</p>
+
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="business" value="joystore@buisness.com">
+                            <input type="hidden" name="cmd" value="_cart">
+                            <input type="hidden" name="add" value="1">
+                            <input type="hidden" name="shopping_url" value="index.html">
+                            <input type="hidden" name="item_name" value="Joy's Color Pencils">
+                            <input type="hidden" name="amount" value="14.99">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="image" name="submit"
+                              src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                              alt="Add to Cart">
+                            <img alt="" width="1" height="1"
+                              src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+                        </form> 
+                        <p class="mt-5">Share our product at:</p>
+                        <a href="https://x.com/home?lang=en"><img src="../img/social/x_logo.webp" height="50" width="50"></a>
+                        <a href="https://www.instagram.com/"><img src="../img/social/instagram.webp" height="50" width="50"></a>
+                        <a href="https://www.tiktok.com/en/"><img src="../img/social/tiktok.webp" height="50" width="50"></a>
+                        <a href="https://www.youtube.com/"><img src="../img/social/youtube.webp" height="50" width="50"></a>
+                    </div>
+                    
+                </div>
+
+            <footer class="footer_color">
+                <div class="container text-center mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label class="fw-bold">Email:</label>
+                            <p class="py-3"><a class="text-dark" href="mailto:joystore@buisness.com">joystore@buisness.com</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="fw-bold">Phone Number:</label>
+                            <p class="py-3"><a class="text-dark" href="tel:+1876-238-0176">876-238-0176</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="fw-bold">Socials:</label>
+                            <div class="py-3">
+                                <a href="https://x.com/joys_artscrafts"><img src="../img/social/x_logo.webp" height="50" width="50"></a>
+                                <a href="https://www.instagram.com/joysarts.crafts/"><img src="../img/social/instagram.webp" height="50" width="50"></a>
+                                <a href="https://www.tiktok.com/@joysart.crafts"><img src="../img/social/tiktok.webp" height="50" width="50"></a>
+                                <a href="https://www.youtube.com/@Joy-Arts-Crafts"><img src="../img/social/youtube.webp" height="50" width="50"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    </body>
+</html> 

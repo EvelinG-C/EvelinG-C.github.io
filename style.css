@@ -1,0 +1,32 @@
+.search_bar{
+    background-color: #B78DF2;
+}
+
+.navbar_color{
+    background-color: #6DBFF2;
+}
+
+.nav-text{
+    color: #D3D9A9;
+}
+.background_color{
+    background-color: #F2E6D8;
+}
+
+.header_color{
+    background-color: #F25EB0;
+}
+
+.footer_color{
+    background-color: #B78DF2;
+}
+
+.button-color{
+    background-color: #BBDDF2;
+}
+
+input[type=search]{
+    width: 70%;
+    padding: 5px 5px;
+
+}
